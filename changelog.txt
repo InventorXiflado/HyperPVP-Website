@@ -1,0 +1,62 @@
+CHANGELOG - Paintball PVP
+
+21-08-2013;
+
+- Fixed users couldn't break blocks. Due to moving servers I accidently left the spawn radius to 16 when it should have been 0.
+
+22-08-2013;
+
+- Added a spawn protection timer for FFA maps consisting of 8 seconds.
+
+23-08-2013;
+
+- Added anti-combat logging.
+- Fixed Destroy The Monument blocks not logging that the person actually removed all the blocks.
+- Added a new spawn hub. If users wish to see a match without joining they can type /spectate
+- Added a new command called /hub. This works if you're in or not in a game. Teleports you back to spawn hub.
+
+24-08-2013;
+
+- Combat log didn't actually log a kill.
+- Fixed combat log colour when disconnected. Team colour would override the whole message.
+- A user now hears a ding upon hitting a user with a paintball gun.
+- Added a new map called 'Shroom Ville'
+- Added a check every tick to make it day in spawn hub and no weather.
+- Users can't fly in spawn hub.
+- A spawn book is now added when user connects.
+
+25-08-2013;
+
+- Fixed a flaw where users could fly in PVP arenas
+- Rebranded to 'Hyper PVP'
+- Users now have adventure mode in spawn hub.
+- Preventing users from jumping in spawn hub. I should remove it though.
+- Forgot to clear armour if the server would be reloaded.
+- Upon pressing TAB users will have their team color.
+- Added team chat by using /t
+- Changed the spawn.
+
+26-08-2013
+
+- No updates
+
+27-08-2013
+
+- Index shows current map playing now.
+
+28-08-2013
+
+- Changed all SSH keys due to a leak of my plugin
+
+29-08-2013
+
+- Bought a new Linux server to host my site on.
+- Configured Apache, MySQL, PHP and many other modules on it.
+
+30-08-2013
+
+- Fixed .htaccess rewrite
+- Rewrote plugin to use all MySQL.
+- Fixed broken queries.
+- Speed in site has increased dramatically.
+- Fixed beginning timer on my plugin.
